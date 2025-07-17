@@ -36,9 +36,75 @@ color: gold;
 display: block;
     }
 
+    .nav-button:hover{
+        background-color: blue;
+        color: aqua;
+        border: solid color(aqua)
+    }
 #photo1{
-    width: 30vw;
+    width:41vw;
+    margin-top: 1,5px;
+    float: right;
+    margin: right 2px;
+}
+article{
+    box-shadow: 2px 2px 5px 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 1000ms;
+    text-align: left;
 }
 #photo2{
     width: 30vw;
+    margin-top: 1,5px;
+    float: right;
+    margin: right 2px;
 }
+
+h2{
+    color: gold;
+}
+
+#rangement{
+    position: relative;
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.grand-lille{
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    align-items: right;
+}
+.grand-lille2{
+    display: flex;
+    flex-direction: right;
+    justify-content: right;
+    align-items: right;
+}
+
+h1{
+    display: flex;
+    flex-direction: center;
+    color: #D18A39 ;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.img{
+  width: 150px;
+  height: auto;
+}
+
