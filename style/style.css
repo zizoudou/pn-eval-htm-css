@@ -33,6 +33,7 @@
 .nav-button {
 font-size: 1,5rem;
 color: gold;
+border-radius: 10px; 
 
     }
 
@@ -48,6 +49,7 @@ color: gold;
     float: right;
     margin: right 2px;
     margin-left: 5vh;
+    padding-top: 90px;
 }
 article{
     display: flex;
@@ -62,10 +64,43 @@ article{
 }
 #photo2{
     width: 25vw;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    *
     margin-top: 10vh;
     float: right;
     margin: right 10px;
     margin-left: 10px;
+    padding-right: 30px;
 }
 
 h2{
@@ -104,6 +139,7 @@ h1{
     display: flex;
     flex-direction: center;
     color: #D18A39 ;
+    padding-left: 30%;
 }
 
 p{
@@ -118,3 +154,9 @@ p{
 a{
     text-decoration: none;
 }
+
+@font-face {
+    font-family: "police";
+    src: url("eval1.otf");
+}
+
