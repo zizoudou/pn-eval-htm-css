@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "police";
+    src: url("eval1.otf");
+}
 *{
     margin : 0;
     padding : 0;
@@ -27,13 +31,17 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 50vh;
+        height: 100%;
     }
 
 .nav-button {
 font-size: 1,5rem;
 color: gold;
+border-radius: 10px;
+font-family: "police";
 border-radius: 10px; 
+width: 20vh;
+
 
     }
 
@@ -42,6 +50,7 @@ border-radius: 10px;
         color: gold;
         border: solid color();
         box-shadow: 5px 5px 15px 0px;
+        width: 20vh;
     }
 #photo1{
     max-width:20vw;
@@ -62,40 +71,9 @@ article{
     transition: transform 1000ms;
     
 }
+
 #photo2{
-    width: 25vw;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    *
+    width: 20vw;
     margin-top: 10vh;
     float: right;
     margin: right 10px;
@@ -105,6 +83,7 @@ article{
 
 h2{
     color: gold;
+    font-family: "police";
 }
 
 #rangement{
@@ -115,8 +94,8 @@ h2{
     justify-content: center;
     align-items: start;
     flex-direction: row;
-    
-}flex
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -132,7 +111,10 @@ main{
 #grand-lille2{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 2px 2px 7px 0px;
+    padding-left: 10px;
 }
 
 h1{
@@ -140,10 +122,13 @@ h1{
     flex-direction: center;
     color: #D18A39 ;
     padding-left: 30%;
+    font-family: "police";
 }
 
 p{
     margin-bottom: 20px;
+    font-family: "police";
+    font-size: 1.1rem;
 }
 
 .img{
@@ -155,8 +140,5 @@ a{
     text-decoration: none;
 }
 
-@font-face {
-    font-family: "police";
-    src: url("eval1.otf");
-}
+
 
